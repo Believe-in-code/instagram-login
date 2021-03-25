@@ -136,8 +136,8 @@ footer {
   background: #fff;
   display: flex;
   justify-content: center;
-  align-items: center;
   line-height: 25px;
+  padding-top: 1vh;
 }
 
 .from {
