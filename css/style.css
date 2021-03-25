@@ -17,12 +17,14 @@ input {
 body {
   background: #fafafa;
   height: 80vh;
+  min-height: 600px;
 }
 
 main {
   width: 350px;
-  height: 100%;
-  margin: 13vh auto;
+  height: 78vh;
+  margin: 0 auto;
+  margin-top: 10vh;
 }
 
 .main {
@@ -35,7 +37,7 @@ main {
 
 input {
   width: 70%;
-  height: 18px;
+  height: 20px;
   font-size: 12px;
   outline: none;
   border: 1px #ddd solid;
@@ -128,8 +130,6 @@ input:focus {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   height: 90px;
   width: 100%;
   border-top: 1px solid #ddd;
